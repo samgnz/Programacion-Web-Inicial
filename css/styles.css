@@ -154,7 +154,7 @@ h1 {
 
 /* TARJETAS */
 
-.contenedor1 {
+.contenedor {
     display: flex;
     width: 100%;
     flex-direction: row;
@@ -351,3 +351,56 @@ padding-bottom: 0.5em;
 }
 
 /* ESTILOS CONTACTO */
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.columna{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0.6em;
+}
+
+.columna.izq{
+border-right: 1px solid #E5CDB0;
+}
+
+.columna.der ul li{
+font-size: 1.2em;
+}
+
+.formulario label{
+    vertical-align: top;
+    width: 20%;
+    display: inline-block;
+}
+
+.formulario input,
+.formulario textarea{
+    background-color: #FBF1EA;
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 0.4em 0.6em;
+    font-size: 1em;
+    width: 70%;
+}
+
+.formulario input[type="submit"]{
+    background-color: #E5CDB0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    color: #FBF1EA;
+    font-size: 1em;
+    cursor: pointer
+}
+
+.formulario textarea{
+    height: 10em;
+    resize: none;
+}
+
+.formulario .acciones{
+    text-align: center;
+}
