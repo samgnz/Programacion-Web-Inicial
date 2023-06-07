@@ -21,3 +21,6 @@ if (n != undefined) {
   
     imgs[currentImg].style.opacity = 1;
   }
+
+
+  

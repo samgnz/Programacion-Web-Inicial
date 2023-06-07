@@ -295,3 +295,59 @@ footer {
 .timeline__desc {
     margin-left: 2rem;
 }
+
+
+
+
+/* ESTILOS CURSOS */
+
+.curso{
+    border: 1px solid gray;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.curso .info{
+    width: 75%
+}
+
+.curso .info h4{
+color: #E5CDB0;
+font-size: 3em;
+font-style: italic;
+font-weight: 500;
+margin: 0.5em 0 1em;
+border-bottom: 1px solid #F3D6C2;
+padding-bottom: 0.5em;
+}
+
+.curso .info p{
+    font-size: 1.5em;
+    line-height: 1.2em;
+}
+
+.curso img{
+    border-radius: 0.8em;
+    width: 300px;
+}
+.curso:nth-child(even) img{
+    float: right;
+    margin: 0 0 0 1em;
+}
+
+.curso:nth-child(even) .info{
+    float: left;
+}
+
+.curso:nth-child(odd) img{
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.curso:nth-child(odd) .info{
+    float: right;
+}
+
+/* ESTILOS CONTACTO */
