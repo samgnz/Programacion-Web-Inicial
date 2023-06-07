@@ -116,9 +116,10 @@ h1 {
     display: inline-block;
     font-size: 24px;
 }
+
 .boton-home button:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  }
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
 .testimonios {
     text-align: center;
@@ -214,7 +215,7 @@ footer {
     height: 50px;
 }
 
-.derecha {
+.right {
     display: flex;
     justify-content: flex-end;
 }
@@ -224,4 +225,73 @@ footer {
     flex-direction: column;
     text-align: center;
     justify-content: flex-start;
+}
+
+
+/* ESTILOS NOSOTROS */
+
+.nosotros{
+    font-size: 1.5em;
+}
+
+.izquierda{
+    float: left;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.derecha{
+    float: right;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.historia p{
+    font-size: larger;
+}
+
+/* TIMELINE */
+.timeline {
+    position: relative;
+}
+
+.timeline__line {
+    border-right: 2px solid #E5CDB0;
+    left: 0.75rem;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+}
+
+.timeline__items {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.timeline__item {
+    margin-bottom: 8px;
+}
+
+.timeline__top {
+    align-items: center;
+    display: flex;
+}
+
+.timeline__circle {
+    background-color: #E5CDB0;
+    border-radius: 9999px;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.timeline__title {
+    flex: 1;
+    margin-left: 0.5rem;
+}
+
+.timeline__desc {
+    margin-left: 2rem;
 }
