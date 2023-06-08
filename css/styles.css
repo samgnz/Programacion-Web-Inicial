@@ -4,6 +4,7 @@ body {
     line-height: 20px;
 }
 
+
 /* ESTILOS HEADER */
 header {
     background-color: #E5CDB0;
@@ -19,6 +20,9 @@ header {
 .header img {
     height: 250px;
 }
+
+
+
 
 /* ESTILOS NAVBAR */
 nav {
@@ -83,7 +87,7 @@ nav ul li a.activo {
     z-index: 0;
 }
 
-
+/* ESTILOS BODY */
 
 h1 {
     color: #E5CDB0;
@@ -177,6 +181,9 @@ h1 {
     width: 100%;
     height: 100%;
 }
+.cardCover img:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
 
 .cardContent {
     text-align: center;
@@ -187,45 +194,16 @@ h1 {
 
 
 /* ESTILOS FOOTER */
-footer {
+.footer {
     background-color: #D3D3D3;
     clear: both;
     color: #333;
-    padding: 2em 0;
-    margin-top: 2em;
+    padding: 2em;
+    margin-top: 3em;
     text-align: center;
 }
 
 
-.left {
-    float: left;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-start
-}
-
-.iconos {
-    display: flex;
-    flex-direction: row;
-}
-
-.iconos img {
-    width: 50px;
-    height: 50px;
-}
-
-.right {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.contacto {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: flex-start;
-}
 
 
 /* ESTILOS NOSOTROS */
@@ -350,6 +328,12 @@ padding-bottom: 0.5em;
     float: right;
 }
 
+
+
+
+
+
+
 /* ESTILOS CONTACTO */
 
 .holder{
@@ -368,6 +352,10 @@ padding-bottom: 0.5em;
 border-right: 1px solid #E5CDB0;
 }
 
+.columna.der ul{
+    list-style: none
+}
+
 .columna.der ul li{
 font-size: 1.2em;
 }
@@ -379,7 +367,8 @@ font-size: 1.2em;
 }
 
 .formulario input,
-.formulario textarea{
+.formulario textarea,
+.formulario select{
     background-color: #FBF1EA;
     border-radius: 5px;
     border: 1px solid #999;
@@ -393,7 +382,8 @@ font-size: 1.2em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     color: #FBF1EA;
     font-size: 1em;
-    cursor: pointer
+    cursor: pointer;
+    width: auto;
 }
 
 .formulario textarea{
