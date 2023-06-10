@@ -1,0 +1,348 @@
+/* RESPONSIVE CELULAR */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    /* ESTILOS HEADER */
+    header {
+        padding: 10px;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .header img {
+        height: 100px;
+    }
+
+
+    /* ESTILOS NAVBAR */
+    nav {
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    nav ul li a {
+        text-align: center;
+        display: block;
+        padding: 0;
+        font-size: 1em;
+    }
+
+
+    /* ESTILOS MAIN  */
+
+    /* CARROUSEL */
+    .slider {
+        height: 220px;
+    }
+
+    .slider img {
+        height: 200px;
+    }
+
+
+    /* ESTILOS BODY */
+    h1 {
+        font-size: 20px;
+        line-height: normal;
+        padding: 0;
+        margin: 0.5em 0 0.5em 0;
+    }
+
+    .bienvenidos {
+        padding-right: 0em;
+    }
+
+    .boton-home {
+        margin: 1em;
+    }
+
+    .boton-home button {
+        font-size: 15px;
+    }
+
+    .testimonios {
+        display: flex;
+        font-size: 10px;
+        padding-bottom: 0;
+    }
+
+    .testimonio {
+        padding: 5px;
+    }
+
+    .testimonio .nombre {
+        font-style: 1em;
+    }
+
+    .testimonio .texto {
+        margin: 0;
+    }
+
+
+    /* TARJETAS */
+    .contenedor {
+        flex-wrap: nowrap;
+        width: 95%;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin: 10px;
+    }
+
+    .card {
+        margin: 5px;
+    }
+
+    .cardCover {
+        height: 10rem;
+    }
+
+    .cardContent {
+        font-size: 10px;
+        padding: 0.1em;
+    }
+
+
+    /* ESTILOS FOOTER */
+    .footer {
+        padding: 0.5em;
+        margin-top: 0.5em;
+        font-size: 5px;
+    }
+
+
+    /* ESTILOS CURSOS */
+    .curso {
+        margin: 10px;
+        padding: 1em;
+    }
+
+    .curso .info {
+        width: 100%;
+    }
+
+    .curso .info h4 {
+        font-size: 20px;
+        margin: 0.2em;
+        padding: 0.5em 0 0.5em 0;
+    }
+
+    .curso .info p {
+        font-size: 1em;
+        line-height: 1em;
+        overflow: hidden;
+    }
+
+    .curso img {
+        width: 200px;
+    }
+
+    .curso:nth-child(even) img {
+        float: none;
+        margin: 0 0 0 0;
+    }
+
+    .curso:nth-child(even) .info {
+        float: none;
+    }
+
+    .curso:nth-child(odd) img {
+        float: none;
+        margin: 0 0 0 0;
+    }
+
+    .curso:nth-child(odd) .info {
+        float: none;
+    }
+
+
+    /* ESTILOS NOSOTROS */
+    .nosotros {
+        font-size: 1.5em;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .izquierda {
+        float: none;
+        width: auto;
+        padding: 1em;
+    }
+
+    .derecha {
+        float: none;
+        width: auto;
+        padding: 0;
+        margin-bottom: 2em;
+    }
+
+    .historia p {
+        font-size: 15px;
+    }
+
+    .timeline__title {
+        font-size: 15px;
+    }
+
+    .timeline__desc {
+        font-size: 15px;
+    }
+
+    #boton-contacto {
+        position: fixed;
+        bottom: 0;
+    }
+
+
+    /* ESTILOS CONTACTO */
+    .holder {
+        display: flex;
+        flex-direction: column;
+        overflow-y: hidden;
+    }
+
+    .columna {
+        width: 100%;
+        overflow-y: hidden;
+    }
+
+    .columna.izq h2 {
+        padding-bottom: 15px;
+    }
+
+    .columna.der h2 {
+        padding-bottom: 15px;
+    }
+
+    .columna.der li {
+        overflow: hidden;
+    }
+}
+
+
+
+/* RESPONSIVE TABLET */
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /* ESTILOS MAIN  */
+    h1 {
+        padding: 0;
+        margin: 1em 0 1em 0;
+    }
+
+    .bienvenidos {
+        padding-right: 0em;
+    }
+
+    /* CARROUSEL */
+    .slider {
+        height: 510px;
+    }
+
+    .slider img {
+        height: 500px;
+    }
+
+
+    /* TARJETAS */
+    .contenedor {
+        flex-wrap: wrap;
+        width: 95%;
+        flex-direction: column;
+        align-content: space-around;
+        margin: 10px;
+    }
+
+    .cardCover {
+        height: 20rem;
+    }
+
+    .cardContent {
+        text-align: center;
+        flex: 1;
+    }
+
+    .card {
+        margin: 10px;
+    }
+
+
+    /* ESTILOS CURSOS */
+    .curso .info {
+        width: 100%;
+    }
+
+    .curso .info p {
+        margin: 0;
+    }
+
+    .curso .info h4 {
+        margin: 0.5em 0 0.5em 0;
+    }
+
+    .curso:nth-child(even) img {
+        float: right;
+        margin: 0 0 0 1em;
+    }
+
+    .curso:nth-child(even) .info {
+        float: right;
+    }
+
+    .curso:nth-child(odd) img {
+        float: right;
+        margin: 0 1em 0 0;
+    }
+
+    .curso:nth-child(odd) .info {
+        float: right;
+    }
+
+
+    /* ESTILOS NOSOTROS  */
+    .historia h1 {
+        margin: 0.8em;
+    }
+
+    .izquierda {
+        float: left;
+        width: 60%;
+    }
+
+    .izquierda p {
+        margin-top: 0;
+    }
+
+    .derecha {
+        float: right;
+        width: 40%;
+    }
+
+
+    /* ESTILOS CONTACTO */
+    .holder {
+        margin: 0;
+    }
+
+    #pie {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
+}
