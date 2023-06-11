@@ -42,19 +42,12 @@
         <div class="columna izq">
             <h2>Contacto</h2>
             <form action="" method="" class="formulario">
-                <p>
                     <label for="Nombre">Nombre</label>
                     <input type="text" />
-                </p>
-                <p>
                     <label for="Email">Email</label>
                     <input type="email" required />
-                </p>
-                <p>
                     <label for="Telefono">Telefono</label>
                     <input type="text" />
-                </p>
-                <p>
                     <label for="Curso">Curso</label>
                     <select name="cursos">
                         <option value="CyC">Corte y Confección I</option>
@@ -64,12 +57,10 @@
                         <option value="PrMo">Produccion de Moda</option>
                         <option value="CyCII">Corte y Confección II</option>
                     </select>
-                </p>
-                <p>
                     <label for="Comentario">Comentario</label>
                     <textarea id="comentario" required></textarea>
-                </p>
-                <p class="acciones"><input type="submit" value="Enviar"> </p>
+                <button class="acciones" onclick="mensajeEnviado()"> Enviar </button>
+                
             </form>
         </div>
         <div class="columna der">
@@ -90,7 +81,7 @@
 
 
     <!-- CODIGO JS  -->
-    <script src="./js/codigo.js"></script>
+    <script src="../js/codigo.js"></script>
 </body>
 
 </html>

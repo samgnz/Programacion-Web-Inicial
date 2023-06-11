@@ -284,9 +284,37 @@ h1 {
     justify-content: center;
 }
 
-.historia p {
+.izquierda p {
     font-size: larger;
+    padding: 15px;
+    margin: 0;
 }
+
+#more {
+    display: none;
+}
+
+#myBtn {
+    font-size: 10px;
+    margin: 0;
+}
+
+#botonLeerMas {
+    margin: 0 0 0 10px ;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#botonLeerMas button {
+    border: 1px solid;
+    color: #999;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
 
 /* TIMELINE */
 .timeline {
@@ -378,13 +406,14 @@ h1 {
     width: 70%;
 }
 
-.formulario input[type="submit"] {
+.formulario button {
     background-color: #E5CDB0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     color: #FBF1EA;
     font-size: 1em;
     cursor: pointer;
     width: auto;
+    border: 1px solid #999;
 }
 
 .formulario textarea {

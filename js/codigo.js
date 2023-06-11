@@ -24,3 +24,30 @@ if (n != undefined) {
 
 
   
+  // BOTON ENVIAR FORMULARIO
+
+function mensajeEnviado() {
+  alert("¡Gracias por contactarnos! En breve nos comunicaremos")
+}
+
+
+
+
+  // BOTON LEER MÁS
+
+
+  function verMas() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("myBtn");
+  
+    if (dots.style.display === "none") {
+      dots.style.display = "inline";
+      btnText.innerHTML = "Leer Más";
+      moreText.style.display = "none";
+    } else {
+      dots.style.display = "none";
+      btnText.innerHTML = "Leer Menos";
+      moreText.style.display = "inline";
+    }
+  }

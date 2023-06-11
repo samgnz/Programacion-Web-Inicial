@@ -41,7 +41,9 @@
     <main class="nosotros">
         <div class="historia">
             <h1>Nuestra Historia</h1>
-            <div class="izquierda">
+        </div>
+        <div class="izquierda">
+            <div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, temporibus! Reiciendis, est itaque
                     officia laudantium vitae alias magnam aspernatur labore earum. Dicta provident harum ut ratione.
                     Voluptatibus eaque molestias accusamus!
@@ -52,24 +54,36 @@
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi facere consequuntur at mollitia quia,
                     hic
                     ex assumenda tenetur possimus vero unde quo! Ut dicta, nesciunt vitae beatae pariatur atque
-                    corrupti.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi facere consequuntur at mollitia quia,
-                    hic
-                    ex assumenda tenetur possimus vero unde quo! Ut dicta, nesciunt vitae beatae pariatur atque
-                    corrupti.
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi facere consequuntur at mollitia quia,
-                    hic
-                    ex assumenda tenetur possimus vero unde quo! Ut dicta, nesciunt vitae beatae pariatur atque
-                    corrupti.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sed distinctio id, voluptatem maxime
-                    architecto in quisquam at quaerat quae, ipsum sequi, qui voluptas laudantium animi ipsa magnam.
-                    Neque,
-                    est?</p>
-                <div class="boton-home" id="boton-contacto">
-                    <button onClick="window.location.href='./contacto.html';"> CONTACTANOS </button>
+                    corrupti
+                    <span id="dots">...</span>
+                </p><span id="more">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi facere consequuntur at
+                        mollitia quia,
+                        hic
+                        ex assumenda tenetur possimus vero unde quo! Ut dicta, nesciunt vitae beatae pariatur atque
+                        corrupti.
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi facere consequuntur at mollitia
+                        quia,
+                        hic
+                        ex assumenda tenetur possimus vero unde quo! Ut dicta, nesciunt vitae beatae pariatur atque
+                        corrupti.
+                        <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum sed distinctio id, voluptatem
+                        maxime
+                        architecto in quisquam at quaerat quae, ipsum sequi, qui voluptas laudantium animi ipsa magnam.
+                        Neque,est?
+                    </p>
+                </span>
+                <br>
+                <div id="botonLeerMas">
+                    <button onclick="verMas()" id="myBtn">Leer más</button>
                 </div>
             </div>
+            <div class="boton-home" id="boton-contacto">
+                <button onClick="window.location.href='./contacto.html';"> CONTACTANOS </button>
+            </div>
+        </div>
+
 
         </div>
         <div class="derecha">
@@ -116,7 +130,7 @@
 
 
     <!-- CODIGO JS  -->
-    <script src="./js/codigo.js"></script>
+    <script src="../js/codigo.js"></script>
 </body>
 
 </html>
